@@ -7,8 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Tyuiu.MolodykhVY.Sprint7.Project.V4.Lib;
 
-namespace Tyuiu.MolodykhVY.Sprint7.V4
+namespace Tyuiu.MolodykhVY.Sprint7.Project.V4
 {
     public partial class FormMain : Form
     {
@@ -17,10 +18,9 @@ namespace Tyuiu.MolodykhVY.Sprint7.V4
             InitializeComponent();
         }
 
-
-        private void ButtonLeftPanel_MouseEnter(object sender, EventArgs e)
+        private void pictureBox2_Click(object sender, EventArgs e)
         {
-
+            
         }
     }
 }
