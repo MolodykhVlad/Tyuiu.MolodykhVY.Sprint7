@@ -35,9 +35,14 @@ namespace Tyuiu.MolodykhVY.Sprint7.Project.V4
             this.ButtonMenu = new System.Windows.Forms.PictureBox();
             this.pictureBoxPoisk = new System.Windows.Forms.PictureBox();
             this.groupBoxMenu = new System.Windows.Forms.GroupBox();
+            this.LeftPanel1 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ButtonMenu)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPoisk)).BeginInit();
+            this.groupBoxMenu.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -90,12 +95,60 @@ namespace Tyuiu.MolodykhVY.Sprint7.Project.V4
             // groupBoxMenu
             // 
             this.groupBoxMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(14)))), ((int)(((byte)(14)))));
+            this.groupBoxMenu.Controls.Add(this.label3);
+            this.groupBoxMenu.Controls.Add(this.label2);
+            this.groupBoxMenu.Controls.Add(this.label1);
+            this.groupBoxMenu.Controls.Add(this.LeftPanel1);
             this.groupBoxMenu.Location = new System.Drawing.Point(12, 106);
             this.groupBoxMenu.Name = "groupBoxMenu";
             this.groupBoxMenu.Size = new System.Drawing.Size(258, 517);
             this.groupBoxMenu.TabIndex = 1;
             this.groupBoxMenu.TabStop = false;
             this.groupBoxMenu.Text = "groupBox1";
+            // 
+            // LeftPanel1
+            // 
+            this.LeftPanel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.LeftPanel1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.LeftPanel1.Location = new System.Drawing.Point(7, 53);
+            this.LeftPanel1.Name = "LeftPanel1";
+            this.LeftPanel1.Size = new System.Drawing.Size(245, 55);
+            this.LeftPanel1.TabIndex = 3;
+            this.LeftPanel1.Text = "Поиск автора";
+            this.LeftPanel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label1
+            // 
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label1.Location = new System.Drawing.Point(7, 165);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(245, 55);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "Поиск автора";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label2
+            // 
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label2.Location = new System.Drawing.Point(4, 288);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(245, 55);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "Поиск автора";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label3
+            // 
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label3.Location = new System.Drawing.Point(6, 430);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(245, 55);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "Поиск автора";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // FormMain
             // 
@@ -111,6 +164,7 @@ namespace Tyuiu.MolodykhVY.Sprint7.Project.V4
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ButtonMenu)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPoisk)).EndInit();
+            this.groupBoxMenu.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -122,6 +176,10 @@ namespace Tyuiu.MolodykhVY.Sprint7.Project.V4
         private System.Windows.Forms.PictureBox ButtonMenu;
         private System.Windows.Forms.PictureBox pictureBoxPoisk;
         private System.Windows.Forms.GroupBox groupBoxMenu;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label LeftPanel1;
     }
 }
 
