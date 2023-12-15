@@ -35,10 +35,9 @@ namespace Tyuiu.MolodykhVY.Sprint7.Project.V4
             this.ButtonMenu = new System.Windows.Forms.PictureBox();
             this.pictureBoxPoisk = new System.Windows.Forms.PictureBox();
             this.groupBoxMenu = new System.Windows.Forms.GroupBox();
-            this.LeftPanel1 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.PoiskYear = new System.Windows.Forms.Label();
+            this.PoiskBook = new System.Windows.Forms.Label();
+            this.PoiskAutor = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ButtonMenu)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPoisk)).BeginInit();
@@ -95,60 +94,47 @@ namespace Tyuiu.MolodykhVY.Sprint7.Project.V4
             // groupBoxMenu
             // 
             this.groupBoxMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(14)))), ((int)(((byte)(14)))));
-            this.groupBoxMenu.Controls.Add(this.label3);
-            this.groupBoxMenu.Controls.Add(this.label2);
-            this.groupBoxMenu.Controls.Add(this.label1);
-            this.groupBoxMenu.Controls.Add(this.LeftPanel1);
-            this.groupBoxMenu.Location = new System.Drawing.Point(12, 106);
+            this.groupBoxMenu.Controls.Add(this.PoiskYear);
+            this.groupBoxMenu.Controls.Add(this.PoiskBook);
+            this.groupBoxMenu.Controls.Add(this.PoiskAutor);
+            this.groupBoxMenu.Location = new System.Drawing.Point(12, 121);
             this.groupBoxMenu.Name = "groupBoxMenu";
-            this.groupBoxMenu.Size = new System.Drawing.Size(258, 517);
+            this.groupBoxMenu.Size = new System.Drawing.Size(258, 502);
             this.groupBoxMenu.TabIndex = 1;
             this.groupBoxMenu.TabStop = false;
-            this.groupBoxMenu.Text = "groupBox1";
             // 
-            // LeftPanel1
+            // PoiskYear
             // 
-            this.LeftPanel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.LeftPanel1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.LeftPanel1.Location = new System.Drawing.Point(7, 53);
-            this.LeftPanel1.Name = "LeftPanel1";
-            this.LeftPanel1.Size = new System.Drawing.Size(245, 55);
-            this.LeftPanel1.TabIndex = 3;
-            this.LeftPanel1.Text = "Поиск автора";
-            this.LeftPanel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.PoiskYear.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.PoiskYear.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.PoiskYear.Location = new System.Drawing.Point(7, 383);
+            this.PoiskYear.Name = "PoiskYear";
+            this.PoiskYear.Size = new System.Drawing.Size(245, 55);
+            this.PoiskYear.TabIndex = 5;
+            this.PoiskYear.Text = "Поиск по году";
+            this.PoiskYear.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label1
+            // PoiskBook
             // 
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(7, 165);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(245, 55);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "Поиск автора";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.PoiskBook.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.PoiskBook.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.PoiskBook.Location = new System.Drawing.Point(7, 213);
+            this.PoiskBook.Name = "PoiskBook";
+            this.PoiskBook.Size = new System.Drawing.Size(245, 55);
+            this.PoiskBook.TabIndex = 4;
+            this.PoiskBook.Text = "Поиск Книги";
+            this.PoiskBook.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label2
+            // PoiskAutor
             // 
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(4, 288);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(245, 55);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "Поиск автора";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label3
-            // 
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label3.Location = new System.Drawing.Point(6, 430);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(245, 55);
-            this.label3.TabIndex = 6;
-            this.label3.Text = "Поиск автора";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.PoiskAutor.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.PoiskAutor.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.PoiskAutor.Location = new System.Drawing.Point(7, 85);
+            this.PoiskAutor.Name = "PoiskAutor";
+            this.PoiskAutor.Size = new System.Drawing.Size(245, 55);
+            this.PoiskAutor.TabIndex = 3;
+            this.PoiskAutor.Text = "Поиск автора";
+            this.PoiskAutor.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // FormMain
             // 
@@ -176,10 +162,9 @@ namespace Tyuiu.MolodykhVY.Sprint7.Project.V4
         private System.Windows.Forms.PictureBox ButtonMenu;
         private System.Windows.Forms.PictureBox pictureBoxPoisk;
         private System.Windows.Forms.GroupBox groupBoxMenu;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label LeftPanel1;
+        private System.Windows.Forms.Label PoiskYear;
+        private System.Windows.Forms.Label PoiskBook;
+        private System.Windows.Forms.Label PoiskAutor;
     }
 }
 
