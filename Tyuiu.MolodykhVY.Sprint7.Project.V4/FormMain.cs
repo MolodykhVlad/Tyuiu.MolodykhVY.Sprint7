@@ -398,8 +398,9 @@ namespace Tyuiu.MolodykhVY.Sprint7.Project.V4
 
         private void buttonDeleteReader_VMY_Click(object sender, EventArgs e)
         {
-            try { 
-            if (dataGridViewData_VMY.CurrentRow.Index >= 0)
+            try
+            {
+                if (dataGridViewData_VMY.CurrentRow.Index >= 0)
             {
                 int a = dataGridViewData_VMY.CurrentRow.Index;
                 dataGridViewData_VMY.Rows.Remove(dataGridViewData_VMY.Rows[a]);
